@@ -256,3 +256,25 @@ img {
     display: flex;
     gap: 20px;
 }
+
+@media (max-width: 900px) {
+    .vantagens-grid, .sobre-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-secao {
+        font-size: 32px;
+    }
+    .cabecalho-conteudo {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navegacao a {
+        margin: 0 15px;
+    }
+    .galeria-grid {
+        flex-direction: column;
+    }
+}
