@@ -36,6 +36,13 @@ img {
     padding: 0 25px;
 }
 
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    width: 100%;
+}
+
 .titulo-secao {
     font-size: 40px;
     text-align: center;
@@ -61,6 +68,8 @@ img {
     background-color: #1A1A1A;
     padding: 15px 0;
     border-bottom: 1px solid #333;
+    position: fixed;
+    width: 100%;
 }
 
 .cabecalho-conteudo {
@@ -77,7 +86,7 @@ img {
 }
 
 .navegacao a {
-    color: #A0A0A0;
+    color: #CBA135;
     margin-left: 30px;
     font-weight: 700;
 }
@@ -87,11 +96,13 @@ img {
     min-height: 60vh;
     display: flex;
     align-items: center;
+    padding-left: 105px;
 }
 
 .titulo-principal {
     font-size: 56px;
     margin-bottom: 15px;
+    color: #D4AF37;
 }
 
 .subtitulo-principal {
@@ -255,6 +266,11 @@ img {
 .rodape-social {
     display: flex;
     gap: 20px;
+}
+
+.redesocial{
+    height: 50px;
+    width: 50px;
 }
 
 @media (max-width: 900px) {
