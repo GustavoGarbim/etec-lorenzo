@@ -16,6 +16,11 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+#fotodele{
+    width: 100px;
+    height: 250px;
+}
+
 a {
     color: #D4AF37;
     text-decoration: none;
